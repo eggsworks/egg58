@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AudioJack4
+D Audio Jack, 4 Poles (TRRS)
+K audio jack receptacle stereo headphones TRRS connector
+F ~
+$ENDCMP
+#
+#End Doc Library
