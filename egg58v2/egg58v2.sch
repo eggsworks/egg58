@@ -1284,18 +1284,6 @@ F 3 "" H 4100 1950 50  0001 C CNN
 	1    4100 1950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7550 650  7550 3300
-Wire Wire Line
-	8250 650  8250 4050
-Wire Wire Line
-	8950 650  8950 4050
-Wire Wire Line
-	9650 650  9650 4050
-Wire Wire Line
-	10350 650  10350 4050
-Wire Wire Line
-	11050 650  11050 4050
 Connection ~ 9750 3750
 Wire Wire Line
 	9750 3750 10450 3750
@@ -1382,4 +1370,85 @@ F 3 "~" H 7250 1150 50  0001 C CNN
 	1    7250 1050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7550 650  7550 1050
+Connection ~ 7550 1050
+Wire Wire Line
+	8250 650  8250 1050
+Connection ~ 8250 1050
+Wire Wire Line
+	8950 650  8950 1050
+Connection ~ 8950 1050
+Wire Wire Line
+	9650 650  9650 1050
+Connection ~ 9650 1050
+Wire Wire Line
+	10350 650  10350 1050
+Connection ~ 10350 1050
+Wire Wire Line
+	10350 1050 10350 1800
+Wire Wire Line
+	11050 650  11050 1050
+Connection ~ 11050 1050
+Wire Wire Line
+	11050 1050 11050 1800
+Connection ~ 11050 1800
+Wire Wire Line
+	11050 1800 11050 2550
+Connection ~ 10350 1800
+Wire Wire Line
+	10350 1800 10350 2550
+Connection ~ 11050 2550
+Wire Wire Line
+	11050 2550 11050 3300
+Connection ~ 10350 2550
+Wire Wire Line
+	10350 2550 10350 3300
+Connection ~ 11050 3300
+Wire Wire Line
+	11050 3300 11050 4050
+Connection ~ 10350 3300
+Wire Wire Line
+	10350 3300 10350 4050
+Wire Wire Line
+	9650 1050 9650 1800
+Connection ~ 9650 3300
+Wire Wire Line
+	9650 3300 9650 4050
+Connection ~ 9650 2550
+Wire Wire Line
+	9650 2550 9650 3300
+Wire Wire Line
+	9650 2550 9650 1800
+Connection ~ 9650 1800
+Wire Wire Line
+	8950 1050 8950 1800
+Connection ~ 8950 3300
+Wire Wire Line
+	8950 3300 8950 4050
+Connection ~ 8950 2550
+Wire Wire Line
+	8950 2550 8950 3300
+Wire Wire Line
+	8950 2550 8950 1800
+Connection ~ 8950 1800
+Wire Wire Line
+	8250 1050 8250 1800
+Connection ~ 8250 3300
+Wire Wire Line
+	8250 3300 8250 4050
+Connection ~ 8250 2550
+Wire Wire Line
+	8250 2550 8250 3300
+Wire Wire Line
+	8250 2550 8250 1800
+Connection ~ 8250 1800
+Wire Wire Line
+	7550 1050 7550 1800
+Connection ~ 7550 2550
+Wire Wire Line
+	7550 2550 7550 3300
+Connection ~ 7550 1800
+Wire Wire Line
+	7550 1800 7550 2550
 $EndSCHEMATC
