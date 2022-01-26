@@ -2,9 +2,13 @@
 
 The egg58 is a staggered-column, split, low-profile keyboard with 58 keys and per-key RGB. The PCB is reversible (i.e. the same part can be used for either hand). This repository contains its design files.
 
+![layout](images/layout.png)
+
+![render](images/render.png)
+
 ## Status
 
-The egg58v2 is a major redesign from the first revision and the PCB included here is not yet complete.
+The egg58 v2 is a major redesign from the first revision and the PCB included here is not yet complete.
 
 Some changes from the first version include:
 - Original Chocs are used rather than Choc v2
@@ -15,7 +19,7 @@ Some changes from the first version include:
 
 ## License
 
-This repository as a whole is available under the terms of the [GPL, verison 3](LICENSE).
+This repository is available under the terms of the [GPL, verison 3](LICENSE).
 
 Some portions are derived from:
 
