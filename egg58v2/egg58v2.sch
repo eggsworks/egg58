@@ -728,17 +728,6 @@ F 3 "" H 7250 3400 50  0001 C CNN
 $EndComp
 Connection ~ 9750 4500
 $Comp
-L egg58v2:Elite-C U1
-U 1 1 6215672D
-P 2000 1750
-F 0 "U1" H 2000 2587 60  0000 C CNN
-F 1 "Elite-C" H 2000 2481 60  0000 C CNN
-F 2 "egg58v2:ProMicro" V 3050 -750 60  0001 C CNN
-F 3 "" V 3050 -750 60  0001 C CNN
-	1    2000 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 62159F99
 P 800 1500
@@ -1210,17 +1199,6 @@ F 3 "" H 1550 3400 50  0001 C CNN
 	1    1550 3400
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:VDD #PWR0104
-U 1 1 619C5956
-P 1550 3500
-F 0 "#PWR0104" H 1550 3350 50  0001 C CNN
-F 1 "VDD" V 1567 3628 50  0000 L CNN
-F 2 "" H 1550 3500 50  0001 C CNN
-F 3 "" H 1550 3500 50  0001 C CNN
-	1    1550 3500
-	0    1    1    0   
-$EndComp
 Text GLabel 1300 1600 0    50   Input ~ 0
 SDA
 Text GLabel 1300 1700 0    50   Input ~ 0
@@ -1228,62 +1206,24 @@ SCL
 NoConn ~ 2700 1400
 NoConn ~ 2700 1600
 NoConn ~ 2700 1700
-NoConn ~ 1300 1300
 NoConn ~ 1300 1800
-Text GLabel 1550 3300 2    50   Input ~ 0
-SDA
 Text GLabel 1550 3200 2    50   Input ~ 0
 SCL
-Wire Wire Line
-	2900 1500 2700 1500
-$Comp
-L power:VCC #PWR0105
-U 1 1 61A2EFBB
-P 2900 1500
-F 0 "#PWR0105" H 2900 1350 50  0001 C CNN
-F 1 "VCC" V 2917 1628 50  0000 L CNN
-F 2 "" H 2900 1500 50  0001 C CNN
-F 3 "" H 2900 1500 50  0001 C CNN
-	1    2900 1500
-	0    1    1    0   
-$EndComp
 Text GLabel 2700 1200 2    50   Input ~ 0
 VBUS
 $Comp
 L Device:Jumper_NC_Dual JP1
 U 1 1 61A4B220
-P 4100 1850
-F 0 "JP1" H 4100 2089 50  0000 C CNN
-F 1 "Jumper_NC_Dual" H 4100 1998 50  0000 C CNN
-F 2 "egg58v2:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 4100 1850 50  0001 C CNN
-F 3 "~" H 4100 1850 50  0001 C CNN
-	1    4100 1850
+P 3650 2950
+F 0 "JP1" H 3650 3189 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 3650 3098 50  0000 C CNN
+F 2 "egg58v2:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 3650 2950 50  0001 C CNN
+F 3 "~" H 3650 2950 50  0001 C CNN
+	1    3650 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 1850 0    50   Input ~ 0
+Text GLabel 3400 2950 0    50   Input ~ 0
 VBUS
-$Comp
-L power:VCC #PWR0106
-U 1 1 61A4DE4C
-P 4350 1850
-F 0 "#PWR0106" H 4350 1700 50  0001 C CNN
-F 1 "VCC" V 4367 1978 50  0000 L CNN
-F 2 "" H 4350 1850 50  0001 C CNN
-F 3 "" H 4350 1850 50  0001 C CNN
-	1    4350 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VDD #PWR0107
-U 1 1 61A4E8E6
-P 4100 1950
-F 0 "#PWR0107" H 4100 1800 50  0001 C CNN
-F 1 "VDD" V 4117 2078 50  0000 L CNN
-F 2 "" H 4100 1950 50  0001 C CNN
-F 3 "" H 4100 1950 50  0001 C CNN
-	1    4100 1950
-	-1   0    0    1   
-$EndComp
 Connection ~ 9750 3750
 Wire Wire Line
 	9750 3750 10450 3750
@@ -1451,4 +1391,110 @@ Wire Wire Line
 Connection ~ 7550 1800
 Wire Wire Line
 	7550 1800 7550 2550
+$Comp
+L Device:Jumper_NC_Dual JP2
+U 1 1 61F3F4C1
+P 2550 2950
+F 0 "JP2" H 2550 3189 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 2550 3098 50  0000 C CNN
+F 2 "egg58v2:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 2550 2950 50  0001 C CNN
+F 3 "~" H 2550 2950 50  0001 C CNN
+	1    2550 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 1300 0    50   Input ~ 0
+SERIAL
+Text GLabel 2300 2950 0    50   Input ~ 0
+SERIAL
+Text GLabel 2800 2950 2    50   Input ~ 0
+SDA
+$Comp
+L power:VCC #PWR0104
+U 1 1 61F625C6
+P 3650 3050
+F 0 "#PWR0104" H 3650 2900 50  0001 C CNN
+F 1 "VCC" V 3667 3178 50  0000 L CNN
+F 2 "" H 3650 3050 50  0001 C CNN
+F 3 "" H 3650 3050 50  0001 C CNN
+	1    3650 3050
+	-1   0    0    1   
+$EndComp
+Text GLabel 3900 2950 2    50   Input ~ 0
+VREG
+Text GLabel 1550 3300 2    50   Input ~ 0
+DATA
+Text GLabel 2550 3050 3    50   Input ~ 0
+DATA
+Text GLabel 2400 3650 0    50   Input ~ 0
+SDA
+Text GLabel 2400 4000 0    50   Input ~ 0
+SCL
+$Comp
+L Device:R_US R2
+U 1 1 61F71586
+P 2550 4000
+F 0 "R2" V 2345 4000 50  0000 C CNN
+F 1 "100k" V 2436 4000 50  0000 C CNN
+F 2 "egg58v2:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2590 3990 50  0001 C CNN
+F 3 "~" H 2550 4000 50  0001 C CNN
+	1    2550 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 61F71DFC
+P 2550 3650
+F 0 "R1" V 2345 3650 50  0000 C CNN
+F 1 "100k" V 2436 3650 50  0000 C CNN
+F 2 "egg58v2:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2590 3640 50  0001 C CNN
+F 3 "~" H 2550 3650 50  0001 C CNN
+	1    2550 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 61F83E20
+P 2700 3650
+F 0 "#PWR0105" H 2700 3500 50  0001 C CNN
+F 1 "VCC" V 2717 3778 50  0000 L CNN
+F 2 "" H 2700 3650 50  0001 C CNN
+F 3 "" H 2700 3650 50  0001 C CNN
+	1    2700 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 61F8A8DD
+P 2700 4000
+F 0 "#PWR0106" H 2700 3850 50  0001 C CNN
+F 1 "VCC" V 2717 4128 50  0000 L CNN
+F 2 "" H 2700 4000 50  0001 C CNN
+F 3 "" H 2700 4000 50  0001 C CNN
+	1    2700 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 61F97A9B
+P 1550 3500
+F 0 "#PWR0107" H 1550 3350 50  0001 C CNN
+F 1 "VCC" V 1567 3628 50  0000 L CNN
+F 2 "" H 1550 3500 50  0001 C CNN
+F 3 "" H 1550 3500 50  0001 C CNN
+	1    1550 3500
+	0    1    1    0   
+$EndComp
+Text GLabel 2700 1500 2    50   Input ~ 0
+VREG
+$Comp
+L egg58v2:Elite-C U1
+U 1 1 6215672D
+P 2000 1750
+F 0 "U1" H 2000 2587 60  0000 C CNN
+F 1 "Elite-C" H 2000 2481 60  0000 C CNN
+F 2 "egg58v2:ProMicro" V 3050 -750 60  0001 C CNN
+F 3 "" V 3050 -750 60  0001 C CNN
+	1    2000 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
