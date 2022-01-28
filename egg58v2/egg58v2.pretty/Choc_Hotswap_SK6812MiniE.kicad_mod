@@ -1,4 +1,4 @@
-(module Choc_Hotswap_SK6812MiniE (layer F.Cu) (tedit 61F35CD7)
+(module Choc_Hotswap_SK6812MiniE (layer F.Cu) (tedit 61F35F10)
   (fp_text reference SW26 (at 6.85 8.45) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
