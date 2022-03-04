@@ -32,7 +32,8 @@ QMK fork coming soon.
 
 ## Materials
 
-- 2x this PCB
+- 2x PCB (from this repo)
+- 2x switchplate (from this repo)
 - 2x Pro Micro or Elite-C 
 - 2x 4.7K through hole resistors (for I2C option)
 - 2x 3.5mm TRRS jack (PJ-320A)
@@ -59,7 +60,7 @@ On the front:
 - Install TRRS.
 - Install MCU (optionally in a socket).
 
-Switchplate files coming soon.
+Mount the switchplate to the PCB with 5x M2 screws. Install switches in the sockets.
 
 ## License
 
