@@ -1,14 +1,14 @@
 # egg58
 
-![render](images/render.png)
+![photo](images/egg58.jpg)
 
 The egg58 is a staggered-column, split, low-profile keyboard with 58 keys and per-key RGB. The PCB is reversible (i.e. the same part is used for both hands). This repository contains its design files.
 
 ## Overview
 
-The egg58 v2 is a full redesign from the first revision.
+![render](images/render.png)
 
-The current PCB design is "complete" with the exception of mounting features, but has not yet been tested.
+The egg58 v2 is a full redesign from the first revision. Prototypes have now arrived the keyboard is tested and working.
 
 Some changes from the first version include:
 - Original Chocs are used rather than Choc v2
@@ -17,7 +17,9 @@ Some changes from the first version include:
 - The LEDs are now north-facing (since that is more suitable for the only shine-through caps for Choc currently available)
 - The thumb cluster is now designed for 2x 1.5u instead of one 1.5u and one 2u key.
 
-The layout and stagger are largely the same, with the exception that keys now use Choc spacing instead of MX.
+The layout and stagger are largely the same, with the exception that keys now use Choc spacing instead of MX. Be aware of this when purchasing keycaps.
+
+Firmware is available using my [fork of QMK](https://github.com/tmick0/qmk_firmware/tree/egg58/keyboards/egg58).
 
 ## Layout
 
@@ -27,8 +29,6 @@ minimal thumb clusters.
 ![layout](images/layout.png)
 
 This is a suggested layout, but obviously it is customizable.
-
-QMK fork coming soon.
 
 ## Materials
 
@@ -48,7 +48,9 @@ QMK fork coming soon.
 On the back of each board:
 
 - Install LEDs such that the notched corner aligns with the indicator on the silkscreen.
+  - Be aware that the orientation of the LEDs changes each row.
 - Install diodes, such that the cathode (the side with the line) points toward the square holes (upward). 
+  - If using through-hole diodes with the FR4 switchplate, ensure that the leads are trimmed very short on the front, otherwise they may scratch through the switchplate solder mask and short out.
 - Install sockets.
 - If I2C is being used, install the two resistors beneath the location for the TRRS.
   - Recommended to use either 2x 4.7K on a single hand, or 4x 10K on both hands.
@@ -58,9 +60,15 @@ On the back of each board:
 On the front:
 
 - Install TRRS.
-- Install MCU (optionally in a socket).
+- Install MCU (preferably in a socket).
 
-Mount the switchplate to the PCB with 5x M2 screws. Install switches in the sockets.
+Mount the switchplate to the PCB with 5x M2 screws. A spacer is recommended between the two layers. Install switches in the sockets.
+
+## Firmware
+
+My [fork of QMK](https://github.com/tmick0/qmk_firmware/tree/egg58/keyboards/egg58) contains default configuration and a keymap for the board.
+
+The configuration will need to be changed if using soft serial instead of I2C, or if your microcontrollers do not use the DFU bootloader.
 
 ## License
 
