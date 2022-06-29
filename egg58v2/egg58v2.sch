@@ -5,12 +5,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "egg58"
-Date "2022-01-23"
-Rev "2"
+Date "2022-06-28"
+Rev "2.1"
 Comp ""
 Comment1 "github.com/tmick0/egg58"
 Comment2 "a sanely minimalist split keyboard"
-Comment3 "egg58v2"
+Comment3 "egg58v2.1"
 Comment4 ""
 $EndDescr
 Text GLabel 7550 650  0    50   Input ~ 0
@@ -1484,7 +1484,7 @@ F 3 "" H 1550 3500 50  0001 C CNN
 	1    1550 3500
 	0    1    1    0   
 $EndComp
-Text GLabel 2700 1500 2    50   Input ~ 0
+Text GLabel 2700 1100 2    50   Input ~ 0
 VREG
 $Comp
 L egg58v2:Elite-C U1
@@ -1498,4 +1498,5 @@ F 3 "" V 3050 -750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1500 6850
+NoConn ~ 2700 1500
 $EndSCHEMATC

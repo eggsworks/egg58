@@ -1,4 +1,4 @@
-(module egg58url (layer F.Cu) (tedit 61F0DFBB)
+(module egg58url (layer F.Cu) (tedit 62BB964A)
   (fp_text reference REF** (at 0 8.636 180) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -14,10 +14,10 @@
   (fp_text user JLCJLCJLCJLC (at 0 -4.826 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text user "egg58 v2 by Travis Mick" (at 0 0.127 180 unlocked) (layer F.SilkS)
+  (fp_text user "egg58 v2.1 by Travis Mick" (at 0 0.127 180 unlocked) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.12) italic))
   )
-  (fp_text user "egg58 v2 by Travis Mick" (at 0 0 180 unlocked) (layer B.SilkS)
+  (fp_text user "egg58 v2.1 by Travis Mick" (at 0 0 180 unlocked) (layer B.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.12) italic) (justify mirror))
   )
 )
