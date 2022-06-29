@@ -1,4 +1,4 @@
-(module egg58logo (layer F.Cu) (tedit 61F34955)
+(module egg58logo (layer F.Cu) (tedit 62BB95E6)
   (fp_text reference G*** (at 0 0) (layer F.Cu) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
@@ -68,7 +68,7 @@
     (xy -5.705945 -2.916827) (xy -5.325935 -3.798729) (xy -4.802671 -4.798387) (xy -4.22496 -5.697139)
     (xy -3.603051 -6.486855) (xy -2.947195 -7.159402) (xy -2.267643 -7.706649) (xy -1.574645 -8.120464)
     (xy -0.878452 -8.392715) (xy -0.189315 -8.515271) (xy 0.482515 -8.479999)) (layer F.Mask) (width 0.01))
-  (fp_text user v2 (at 3.048 2.54) (layer F.SilkS)
+  (fp_text user v2.1 (at 3.048 2.54) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
 )
