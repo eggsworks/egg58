@@ -1,0 +1,646 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid d23fbe98-d5e8-4416-9535-f408b7add0ef)
+
+  (paper "A4")
+
+  (title_block
+    (title "egg58")
+    (date "2023-04-06")
+    (rev "3")
+    (company "EggsWorks, LLC")
+    (comment 1 "github.com/eggsworks/egg58")
+    (comment 2 "a sanely minimalist split keyboard")
+    (comment 3 "egg58v3")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 123.19 77.47) (size 62.23 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 13f61260-a66d-4d77-8d94-845a8cf0c839)
+    (property "Sheet name" "Front Components" (id 0) (at 123.19 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "egg58v3-front.kicad_sch" (id 1) (at 123.19 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 240.03 129.54) (size 13.97 10.16) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 268a93e8-fa23-43a8-af13-b9fb3dc1a806)
+    (property "Sheet name" "Mounting, Design, Etc." (id 0) (at 240.03 128.8284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "egg58v3-misc.kicad_sch" (id 1) (at 240.03 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 54.61 77.47) (size 62.23 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 919ab01d-7eb4-4062-9012-44dcffb54099)
+    (property "Sheet name" "Common Components" (id 0) (at 54.61 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "egg58v3-common.kicad_sch" (id 1) (at 54.61 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 191.77 77.47) (size 62.23 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid d5836231-d6b9-462d-aea2-031846d0aa69)
+    (property "Sheet name" "Back Components" (id 0) (at 191.77 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "egg58v3-back.kicad_sch" (id 1) (at 191.77 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839" (page "2"))
+    (path "/919ab01d-7eb4-4062-9012-44dcffb54099" (page "3"))
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69" (page "4"))
+    (path "/268a93e8-fa23-43a8-af13-b9fb3dc1a806" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/268a93e8-fa23-43a8-af13-b9fb3dc1a806/02423859-5b9f-4e67-bfec-67f94e33613a"
+      (reference "#LOGO1") (unit 1) (value "Logo_Open_Hardware_Small") (footprint "egg58v2:egg58logo")
+    )
+    (path "/919ab01d-7eb4-4062-9012-44dcffb54099/250d9e83-ac85-43ac-8efe-a39ed0d9f08e"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/919ab01d-7eb4-4062-9012-44dcffb54099/488fd696-c6fa-4d27-a1ec-ba43522cba51"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/919ab01d-7eb4-4062-9012-44dcffb54099/90c62c74-6835-4ab9-a05c-4fc77ffc6d26"
+      (reference "#PWR0103") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/919ab01d-7eb4-4062-9012-44dcffb54099/1a7ed60e-b8d1-42bd-a169-d5fc54da1a47"
+      (reference "#PWR0104") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/919ab01d-7eb4-4062-9012-44dcffb54099/59e5a187-2c61-4e20-aafd-87330440915e"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/919ab01d-7eb4-4062-9012-44dcffb54099/a60f211a-3793-41e6-b1a3-afa71a025790"
+      (reference "#PWR0106") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/919ab01d-7eb4-4062-9012-44dcffb54099/7b572c62-7542-4d93-9f94-974586e5fde9"
+      (reference "#PWR0107") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/268a93e8-fa23-43a8-af13-b9fb3dc1a806/93c7a95f-14c5-41e1-a61d-876abea51f4c"
+      (reference "#SYM1") (unit 1) (value "SYM_Flash_Small") (footprint "egg58v2:egg58url")
+    )
+    (path "/919ab01d-7eb4-4062-9012-44dcffb54099/e8dc65b8-a0a9-4813-82f1-c97eb0583260"
+      (reference "J1") (unit 1) (value "AudioJack4") (footprint "egg58v2:MJ-4PP-9")
+    )
+    (path "/919ab01d-7eb4-4062-9012-44dcffb54099/04af12ca-3228-4d2d-b1f7-47dff8d4ea36"
+      (reference "JP1") (unit 1) (value "Jumper_NC_Dual-Device") (footprint "egg58v2:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
+    )
+    (path "/919ab01d-7eb4-4062-9012-44dcffb54099/a11e900f-84ab-4b2c-8ab2-a2c2f7046079"
+      (reference "JP2") (unit 1) (value "Jumper_NC_Dual-Device") (footprint "egg58v2:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")
+    )
+    (path "/919ab01d-7eb4-4062-9012-44dcffb54099/ecfb3147-33dd-4273-bfd4-d6b5056c435f"
+      (reference "R1") (unit 1) (value "100k") (footprint "egg58v2:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/919ab01d-7eb4-4062-9012-44dcffb54099/4c33ad9d-8f48-4eff-b35d-d69613817502"
+      (reference "R2") (unit 1) (value "100k") (footprint "egg58v2:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/d929df0a-4159-4cd2-9cbe-123f6ddf147f"
+      (reference "SW11") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/1ffdeb5a-ef68-4bc9-bd72-d48996274d38"
+      (reference "SW11") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/473d9c43-601a-4a07-8103-6fc9d9e522f7"
+      (reference "SW11") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/eefb901c-a27f-4891-9508-e1c8d8e66943"
+      (reference "SW11") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/2233bf44-9676-4236-9366-6181e84f66d8"
+      (reference "SW11") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/94106ac8-6601-4f20-8c24-044a5a04e441"
+      (reference "SW11") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/98ec587c-48df-48af-88a3-e63557e11138"
+      (reference "SW12") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/1843e41c-51be-4ea9-a034-ab053ecc7a96"
+      (reference "SW12") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/c1427cbb-7960-438b-b9fb-4ef44c770905"
+      (reference "SW12") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/ab9d29f0-1330-4b45-bcc0-6e3fec6d25d6"
+      (reference "SW12") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/76664732-4e4b-4557-9cf0-1c33339828c6"
+      (reference "SW12") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/9b893edb-947d-4345-ad0c-47fb8a77d18b"
+      (reference "SW12") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/53c57448-dd18-479f-8b41-d83027f44b79"
+      (reference "SW13") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/51c5ce09-d58f-4be1-bda9-5b60207c7e79"
+      (reference "SW13") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/1e4765af-983a-40b3-b30f-104ca4bcc752"
+      (reference "SW13") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/023ded13-59a9-41cb-a6e2-3e03030e1c6d"
+      (reference "SW13") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/910e3f96-d829-4117-bd76-33d8d09241b7"
+      (reference "SW13") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/740c4389-622c-499f-8013-6b9bad8d2f9a"
+      (reference "SW13") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/eb634032-bbe2-4d2a-9032-5131ab48b87d"
+      (reference "SW14") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/17a0454e-d6f0-426d-a0b7-13db1f6148fa"
+      (reference "SW14") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/d08dcfdb-c936-4c67-9e05-f90f56594399"
+      (reference "SW14") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/048f0fda-e969-4b17-afff-fcfe4845bce7"
+      (reference "SW14") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/452a2148-1cf0-48fe-8c08-8ba845a64a1e"
+      (reference "SW14") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/de8292cb-4967-4d4a-877b-e1b0ac95fc80"
+      (reference "SW14") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/77722371-5eb5-4ca8-8069-f5cdae122b19"
+      (reference "SW15") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/5411f5a7-b2e7-486d-a840-de18315d4d98"
+      (reference "SW15") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/1e12c6cf-8a69-4c5c-a7bb-e39595e12091"
+      (reference "SW15") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/ba5caa57-01ff-448e-98e6-4f3822019768"
+      (reference "SW15") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/babb7cfe-5cbd-4d42-8ad8-cf7d595b23dd"
+      (reference "SW15") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/48e1bdc5-3086-4f61-9cb9-a4a8f7399b8c"
+      (reference "SW15") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/17efe1a1-91f8-45bd-a6cc-869a126207cc"
+      (reference "SW16") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/4502ef61-d65e-4e46-824b-f84e2ccfb77e"
+      (reference "SW16") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/db46b64a-ab2c-4719-a0bb-3e0315962b3d"
+      (reference "SW16") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/18a6d8d0-184a-45e7-a83e-deac437d006d"
+      (reference "SW16") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/4f85a16f-3500-4461-ae25-1d8c5dc9f10a"
+      (reference "SW16") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/473debb7-92f5-4172-b16b-26591a777a6f"
+      (reference "SW16") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/dc02ba48-f70e-48ec-ae99-7546a43d617a"
+      (reference "SW21") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/84a2e431-cb9c-49fc-a24c-51a799f63a6d"
+      (reference "SW21") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/43f0a374-f643-4698-a784-8d6fdbe7df5a"
+      (reference "SW21") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/0f28ebbf-ed1b-4ae5-87fa-eaca45034ad7"
+      (reference "SW21") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/b3e8b57b-f66c-4795-a55e-a43515d3371b"
+      (reference "SW21") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/11673518-a09a-4aa1-ae93-67a986e0dd75"
+      (reference "SW21") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/76011001-f7a1-4b09-a4a7-a3612b9dfe56"
+      (reference "SW22") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/cbd58e35-5bab-48e2-83f1-eba5f3c4b88c"
+      (reference "SW22") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/6db4033d-aafe-4020-8e52-f2c375d20d82"
+      (reference "SW22") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/d722a747-6edb-46f6-9abb-a5c307851759"
+      (reference "SW22") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/c69b89e6-bcce-473f-84a3-bdb67af7c8df"
+      (reference "SW22") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/507d83af-0016-4a51-93d0-b8cbd8e8bed2"
+      (reference "SW22") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/8bea81b7-407e-4c63-bfba-6a1599ff50b1"
+      (reference "SW23") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/cbdaddbd-0fc5-4334-9598-297556477542"
+      (reference "SW23") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/93633c3a-f685-4436-ba21-0feeea3b5423"
+      (reference "SW23") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/b97a09f9-d6d7-415e-8cbd-3dcadb72348d"
+      (reference "SW23") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/5f917ce9-f01a-4812-bffa-d84b50d728f4"
+      (reference "SW23") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/308a0df1-ec30-447a-94d7-1c4fdc182422"
+      (reference "SW23") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/15697368-b919-4917-bd77-72a774be0a41"
+      (reference "SW24") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/57636587-5378-4e7d-9248-c53773f4ab97"
+      (reference "SW24") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/f4ba9303-d05a-4ec6-934f-5ce2b11cf7b7"
+      (reference "SW24") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/cc2691b5-459c-49d6-9f8f-5cfad02ab9f9"
+      (reference "SW24") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/3394fc6b-f8e1-4492-a916-3a9a2f8487de"
+      (reference "SW24") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/5bfbea20-5398-44b8-b008-f43be51fbaa8"
+      (reference "SW24") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/4732c052-a1a4-47d5-a1d8-9505374bbb42"
+      (reference "SW25") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/dfc8d160-83ff-4360-a154-2382ee7b845a"
+      (reference "SW25") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/9e887166-e941-44fc-938f-0d16803bd397"
+      (reference "SW25") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/5aff02b3-b5be-4566-bd4d-8fd32ae1786b"
+      (reference "SW25") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/3628b75c-4248-44b9-9823-d30d69d79009"
+      (reference "SW25") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/bf2c19d0-93de-4940-9fe5-c719f7133a20"
+      (reference "SW25") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/0156e764-c675-4ea5-a0b0-d32101e61e7c"
+      (reference "SW26") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/09d5dcc6-4476-47ad-83d6-e4d66fc814ed"
+      (reference "SW26") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/5675088a-f83c-4aec-994a-a26269f053d7"
+      (reference "SW26") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/6b10ace8-9f72-4a09-a607-d5262ab2978a"
+      (reference "SW26") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/1dd395b9-f118-4912-ac1d-b48d4b6b02ae"
+      (reference "SW26") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/c30d83fc-1f82-4389-b683-41ea5cfe4fd2"
+      (reference "SW26") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/1638d1d6-d83a-4263-a407-1b44f67053d4"
+      (reference "SW31") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/1c2149a9-45a4-4211-978f-e2258e09fc84"
+      (reference "SW31") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/8957b775-7c87-419b-a0e3-9080dc1814f7"
+      (reference "SW31") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/517e5a81-1895-42b0-b22d-3ef7249a65a5"
+      (reference "SW31") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/fd5c04f0-9a6b-4841-acd8-66439a60a2c4"
+      (reference "SW31") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/23102923-f464-452c-908c-7beff0654f6d"
+      (reference "SW31") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/5e78a4d3-aa9c-4e39-945b-0dc87b0bf7ec"
+      (reference "SW32") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/8b3cc378-a6e9-4b41-8b72-78a64a97b73f"
+      (reference "SW32") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/eae430c4-27fc-418b-bef1-442fbf882ee1"
+      (reference "SW32") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/317c37e2-2a61-4b59-98e3-1474f80607b2"
+      (reference "SW32") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/2e6e875a-7725-4692-a8cc-8842453c0083"
+      (reference "SW32") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/a3595ee7-6b89-453f-90f4-11788358882d"
+      (reference "SW32") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/e3c7fd57-10db-4a95-88d3-54edb4dd28e1"
+      (reference "SW33") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/a5f2ec1f-cda4-4404-85be-339596af07be"
+      (reference "SW33") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/bba147b5-a5e1-4510-a6e6-25e58cdeeb92"
+      (reference "SW33") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/907918a7-83fd-4e5a-919a-f84fae6b86f7"
+      (reference "SW33") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/ea928ce4-ff69-4a22-9b28-23dce491c36c"
+      (reference "SW33") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/14ad65df-7e80-4e31-ba85-9b8e1b9415fb"
+      (reference "SW33") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/e92f4797-11a6-442c-8b0c-163d4d694d05"
+      (reference "SW34") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/b2a3c15d-c8bf-44c0-91e6-bdb875a493df"
+      (reference "SW34") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/eabadbb5-3345-4f4a-9a96-2580e98c9a77"
+      (reference "SW34") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/e051f299-f397-441a-aee3-7c21887ff6ba"
+      (reference "SW34") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/00945ce8-e83f-4d18-9052-e2cad0a0b539"
+      (reference "SW34") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/a5d27614-3056-4d83-bf1e-ad8310ef8fe5"
+      (reference "SW34") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/24b758fb-79e5-42c4-914e-c1494fe8afd7"
+      (reference "SW35") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/fa5dbc0f-141f-4714-83c1-b637f4bff64c"
+      (reference "SW35") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/aa5f28bf-0c05-4967-83e7-89c963eb996d"
+      (reference "SW35") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/aad3c1be-8fd0-49cb-b5af-fce360b5b7b0"
+      (reference "SW35") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/43849900-eab3-4efc-a425-2bb115ac6390"
+      (reference "SW35") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/0208cf23-1b27-4757-812e-4ddfdb2895b5"
+      (reference "SW35") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/6c3eeec7-342d-4077-8d41-a73fcf9af82e"
+      (reference "SW36") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/1934500d-46bd-424a-b139-316a681b9027"
+      (reference "SW36") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/4ad6eb40-ea52-4a74-bd8c-acc37f85b246"
+      (reference "SW36") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/2a267540-917f-467b-9ad4-53c731a338b2"
+      (reference "SW36") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/4d691b9a-bbdc-4976-a972-3192b8941acf"
+      (reference "SW36") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/11d2e30f-c240-4c30-8136-3875f90b9e9a"
+      (reference "SW36") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/d99d8102-5342-4fe3-b7d0-5ae68d0f5874"
+      (reference "SW41") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/eff881b5-27b9-46ab-96ba-cb0d22d28afc"
+      (reference "SW41") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/389fcf3b-6cc6-4dd0-86be-c204c9e6540a"
+      (reference "SW41") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/f3dfaa61-e4f8-4ef5-ba85-3bcf28a4234d"
+      (reference "SW41") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/96e95098-8366-4307-b098-7e1f6a3273d6"
+      (reference "SW41") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/15ff7cd0-fb97-4c09-b6d6-cd3fe6928cbe"
+      (reference "SW41") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/64576a97-e9d2-4072-adbd-f2b08f0bff7d"
+      (reference "SW42") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/250f31a2-7bdb-42c6-8165-825f1568a32e"
+      (reference "SW42") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/4bae2ff0-116c-41c0-91b7-046b31f4fcff"
+      (reference "SW42") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/37488cf2-b20e-4fc9-a53e-15df211652ca"
+      (reference "SW42") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/3c5ba4f9-e566-4dfa-8c44-f2fbc41ec589"
+      (reference "SW42") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/0a1bc1b3-c7c7-406c-a103-52fbb2aea6f3"
+      (reference "SW42") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/71b8bb90-9515-420e-b5e8-b2c5ff3e406d"
+      (reference "SW43") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/8286975e-6e2d-45ef-87c3-9ad1b0095030"
+      (reference "SW43") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/43e27343-15b5-49d1-9c23-15e9acddd4d9"
+      (reference "SW43") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/394ce1af-832d-45b4-9f4b-03a8a7737d2b"
+      (reference "SW43") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/dce8a015-a5b2-4cc1-b64e-997fc3772f4e"
+      (reference "SW43") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/1bc47b59-2f56-4303-a2ac-68a530eb0436"
+      (reference "SW43") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/6aedd07e-30c0-4a64-8bab-f08bfe64fb16"
+      (reference "SW44") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/e0908d64-a071-4747-a0b8-788330e2ec97"
+      (reference "SW44") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/e6b55f61-330f-455e-bb50-403ae84e8160"
+      (reference "SW44") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/479e827b-861d-45a8-9003-de36c0925f37"
+      (reference "SW44") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/66c09a40-2838-4b88-a089-3f00e4532f93"
+      (reference "SW44") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/eeeaaa78-967e-4b03-8164-5332f5d7d37f"
+      (reference "SW44") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/1c730eb6-3cf6-453f-8f43-5d255d39b190"
+      (reference "SW45") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/960ae2e4-b862-4b48-93af-36def0233d9c"
+      (reference "SW45") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/1d55848a-f6c4-431d-b86a-db74b5746776"
+      (reference "SW45") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/f3e66dcf-49a7-4558-a2ab-94ecbde24bee"
+      (reference "SW45") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/150ef83a-9f99-4bcb-aed4-f4cd564c8c87"
+      (reference "SW45") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/eae9e094-d20a-45d1-9713-1f6a89a93685"
+      (reference "SW45") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/b983177c-9e63-413b-95fb-5647af08bb10"
+      (reference "SW46") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/4cd6b378-a5e7-4b6a-83ba-e484d89b2746"
+      (reference "SW46") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/544cc695-aa1e-4a43-9cb3-ec45bd5e97fa"
+      (reference "SW46") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/2d9f4013-7652-4cd4-adfa-f0a25305710d"
+      (reference "SW46") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/aa7cd693-b766-4b3a-8b86-003f7f892f34"
+      (reference "SW46") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/bfe15d5b-5f02-4a80-b76d-882140a2bd37"
+      (reference "SW46") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/97075465-b8e6-4fd3-8166-85fd603c080c"
+      (reference "SW52") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/3c73fb79-1c54-4d80-a9ff-20f1d558d529"
+      (reference "SW52") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/6abf713d-aff8-499f-a55f-1bfdc1abaf65"
+      (reference "SW52") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/47c9fa55-4cc6-449f-bcf9-e1031fd88ee5"
+      (reference "SW52") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/e60b0b09-37c2-4b76-bf7d-c05580338790"
+      (reference "SW52") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/c0c898f1-68fe-48fd-94ae-43b18d7cd0a7"
+      (reference "SW52") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/5880b561-4e01-44b0-94ce-c577956df487"
+      (reference "SW53") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/8f7e26a1-2700-4d6e-89d6-2a605a054fe8"
+      (reference "SW53") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/7ccbd176-19de-4865-ae73-39a6f651d35b"
+      (reference "SW53") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/b5c5d883-fd46-49e5-a162-afeb5a93fe7f"
+      (reference "SW53") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/212e8aa1-6aef-4933-b7d7-5198a7f0127e"
+      (reference "SW53") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/e73ffc8a-2fbf-4a3d-8f23-915803a555cd"
+      (reference "SW53") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/4399ff1c-f8bc-439e-9fa5-c49bf613be1a"
+      (reference "SW54") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/fa61233b-c375-49f2-bd0b-70d2d2b45892"
+      (reference "SW54") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/cd22f751-9ea9-466d-bbd9-ba81c5955463"
+      (reference "SW54") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/8b7b31bc-7c8d-404c-ac28-9ddb39e3a7ed"
+      (reference "SW54") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/470aa5c8-39a0-4176-b087-ca3b011771bf"
+      (reference "SW54") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/50fc1034-0969-4260-a6d3-5782aedd6a40"
+      (reference "SW54") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/89cf0f27-c02c-4633-896c-d401539e8f47"
+      (reference "SW55") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/4b8a5c13-daa8-4396-8be5-b545b10632f2"
+      (reference "SW55") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/dc4cf142-9db8-4676-9c42-71c4f7924f3c"
+      (reference "SW55") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/5671822c-1110-4db4-ac2c-88ecca1eb9c6"
+      (reference "SW55") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/15d295e8-8f71-4716-baf7-c9cd93152b10"
+      (reference "SW55") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/1713ff46-5004-460d-a339-c3b6a6b8b3fd"
+      (reference "SW55") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/449ea1e8-4c90-44a5-bf3d-a8e8c5899da3"
+      (reference "SW56") (unit 1) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/9a335cd6-917b-417d-bff6-d0efd5aa81d9"
+      (reference "SW56") (unit 2) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/13f61260-a66d-4d77-8d94-845a8cf0c839/e3574536-338f-4339-bdfc-fb39c74f02ab"
+      (reference "SW56") (unit 3) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/d0bffcca-6916-45a8-b949-d21766a1bfe6"
+      (reference "SW56") (unit 4) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/d82db495-5fa8-4c23-8295-eaca720d614d"
+      (reference "SW56") (unit 5) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/d5836231-d6b9-462d-aea2-031846d0aa69/0d4e102d-0dea-490e-bd2a-3e60096b8e0a"
+      (reference "SW56") (unit 6) (value "SW_PUSH_LED") (footprint "egg58v2:Choc_Hotswap_SK6812MiniE")
+    )
+    (path "/919ab01d-7eb4-4062-9012-44dcffb54099/15e135ec-fe2f-44f0-a125-415c0df2975a"
+      (reference "U1") (unit 1) (value "Elite-C") (footprint "egg58v2:ProMicro")
+    )
+  )
+)
