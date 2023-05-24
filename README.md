@@ -45,6 +45,9 @@ On the back of each board:
   - Recommended to use either 2x 4.7K on a single hand, or 4x 10K on both hands.
   - The values are fairly flexible, as long as the total resistance on each line is between 2.2K-10K.
 - Solder the two jumpers to select serial/I2C and Elite-C/Pro Micro.
+  - The EliteC/ProMicro jumper selects the position of the VBUS/RAW pin, to supply 5v to the LEDs and across the TRRS cable. On the Elite-C, the RAW pin is replaced with an extra I/O pin (B0) and an extra VBUS pin is added above it. Select EliteC in this case, or ProMicro for all others.
+  - The Serial/I2C jumper selects which data pin is attached to the TRRS jack. The firmware uses I2C by default, but select Serial if you have customized it.
+  - Each jumper should have one "outer" pad soldered to the inner pad. See [Issue #4](https://github.com/eggsworks/egg58/issues/4) for further explanation and a diagram.
 
 On the front:
 
