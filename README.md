@@ -100,9 +100,9 @@ ZMK support is available from my [zmk-config](https://github.com/tmick0/zmk-conf
 
 ### Changelog
 
-#### 2022-02-20
+#### 2023-02-20
 
-- Created iwreless variant
+- Created wireless variant
 
 ## Accessories
 
