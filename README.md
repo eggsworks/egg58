@@ -106,7 +106,9 @@ ZMK support is available from my [zmk-config](https://github.com/tmick0/zmk-conf
 
 ## Accessories
 
-A 3D-printable case compatible with both the original and wireless boards can be found in [egg58v2 case](egg58v2%20case).
+A 3D-printable case compatible with both the original and wireless boards can be found in [egg58v2 case](egg58v2%20case). The case uses M2 threaded heat-set inserts to mount the board.
+
+Minimal tenting stands in 15, 10, and 5 degree variants can be printed from the models in [egg58v2 tenting stands](egg58v2%20tenting%20stands). They also use M2 threaded inserts. The tenting stands are mutually exclusive with the full-bottom case.  Rubber bumpons should be applied to the bottom of the stands, and on the "outside" edge of the PCB where the stands do not attach.
 
 A model for a wrist rest is also available in [egg58v2 wrist rest](egg58v2%20wrist%20rest).
 
